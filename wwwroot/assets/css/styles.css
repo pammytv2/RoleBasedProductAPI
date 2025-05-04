@@ -177,6 +177,92 @@ img {
   top: -12px;
   font-size: var(--small-font-size);
 }
+.nav__list {
+  display: flex;               /* ทำให้เรียงแนวนอน */
+  gap: 1.5rem;                 /* ระยะห่างระหว่างเมนู */
+  list-style: none;           /* เอา bullet ออก */
+  padding: 0;               /* เอา padding ออก */
+  margin: 0;
+  align-items: center;        /* จัดให้อยู่ตรงกลางแนวตั้ง */
+}
+/* ฟอนต์แบบเดียวกับ Login UI */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0f0f0f;
+    color: #fff;
+}
+
+/* Header styles */
+.header {
+    background-color: transparent;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.nav__logo {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.nav__list {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.nav__link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav__link:hover,
+.nav__link.active-link {
+    color: #0ef; /* สีฟ้าเรืองแสง (เหมือนปุ่ม Login) */
+}
+
+/* Icon buttons */
+.nav__btns i {
+    color: #fff;
+    font-size: 1.25rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+/* Tooltip (optional) */
+.tooltip {
+    font-size: 0.75rem;
+    color: #aaa;
+}
+.nav__close {
+  display: none;
+}
+
+
+
+
+
 
 /*=============== BREAKPOINTS ===============*/
 /* For medium devices */
