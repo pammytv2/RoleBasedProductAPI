@@ -13,12 +13,12 @@ namespace RoleBasedProductAPI.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult login()
         {
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult products()
         {
             return View();
         }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9lJw7nO9qfWJZbwhChxd8jqWEuCzhjFyxBhVi5fFmVg=",
+  "Hash": "Zxjxd9+tu1O0TdqR2LkAMKplQCDz8xRKfOoCm5QNrBU=",
   "Source": "RoleBasedProductAPI",
   "BasePath": "_content/RoleBasedProductAPI",
   "Mode": "Default",
@@ -73,11 +73,53 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "v93b823ltm",
-      "Integrity": "rVqIWEfeQDvJVHnxLaeV9LNE4kj0SqSPcL/812s3zCs=",
+      "Fingerprint": "7q4huk4j10",
+      "Integrity": "L+BtJhr1DK1yD2R/T0WbMibVVhFWjB2tC0Yv0AaUhbc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\css\\styles.css"
+    },
+    {
+      "Identity": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\img\\b1.jpg",
+      "SourceId": "RoleBasedProductAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\",
+      "BasePath": "_content/RoleBasedProductAPI",
+      "RelativePath": "assets/img/b1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lzagvscfbe",
+      "Integrity": "oYqtqiBxpypmHuFQBzsTLZh7seQOjOVfA1cWDMXCZ3U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\b1.jpg"
+    },
+    {
+      "Identity": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\img\\b2.jpg",
+      "SourceId": "RoleBasedProductAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\",
+      "BasePath": "_content/RoleBasedProductAPI",
+      "RelativePath": "assets/img/b2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7g6xll9jmw",
+      "Integrity": "GWjiD2Th2OmV/mO/fftLKfEpJ8s5t8nk5Fmlvx1Agcg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\b2.jpg"
     },
     {
       "Identity": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\img\\login-bg.png",
@@ -1443,30 +1485,54 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
-    },
-    {
-      "Identity": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\login\\Login.html",
-      "SourceId": "RoleBasedProductAPI",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\",
-      "BasePath": "_content/RoleBasedProductAPI",
-      "RelativePath": "login/Login#[.{fingerprint}]?.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "gcb9j61zn0",
-      "Integrity": "UMMpbhTIdJao7WcWwqqJNV3QDzU25fQWqJUq9vfIyrQ=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\login\\Login.html"
     }
   ],
   "Endpoints": [
+    {
+      "Route": "assets/css/styles.7q4huk4j10.css",
+      "AssetFile": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5592"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L+BtJhr1DK1yD2R/T0WbMibVVhFWjB2tC0Yv0AaUhbc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 09:49:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7q4huk4j10"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/css/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-L+BtJhr1DK1yD2R/T0WbMibVVhFWjB2tC0Yv0AaUhbc="
+        }
+      ]
+    },
     {
       "Route": "assets/css/styles.css",
       "AssetFile": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\css\\styles.css",
@@ -1478,7 +1544,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3823"
+          "Value": "5592"
         },
         {
           "Name": "Content-Type",
@@ -1486,11 +1552,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rVqIWEfeQDvJVHnxLaeV9LNE4kj0SqSPcL/812s3zCs=\""
+          "Value": "\"L+BtJhr1DK1yD2R/T0WbMibVVhFWjB2tC0Yv0AaUhbc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Oct 2023 23:39:52 GMT"
+          "Value": "Sun, 04 May 2025 09:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1500,13 +1566,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-rVqIWEfeQDvJVHnxLaeV9LNE4kj0SqSPcL/812s3zCs="
+          "Value": "sha256-L+BtJhr1DK1yD2R/T0WbMibVVhFWjB2tC0Yv0AaUhbc="
         }
       ]
     },
     {
-      "Route": "assets/css/styles.v93b823ltm.css",
-      "AssetFile": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\css\\styles.css",
+      "Route": "assets/img/b1.jpg",
+      "AssetFile": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\img\\b1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1515,19 +1581,56 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3823"
+          "Value": "8485048"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/css"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"rVqIWEfeQDvJVHnxLaeV9LNE4kj0SqSPcL/812s3zCs=\""
+          "Value": "\"oYqtqiBxpypmHuFQBzsTLZh7seQOjOVfA1cWDMXCZ3U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Oct 2023 23:39:52 GMT"
+          "Value": "Sun, 04 May 2025 08:30:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oYqtqiBxpypmHuFQBzsTLZh7seQOjOVfA1cWDMXCZ3U="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/b1.lzagvscfbe.jpg",
+      "AssetFile": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\img\\b1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8485048"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oYqtqiBxpypmHuFQBzsTLZh7seQOjOVfA1cWDMXCZ3U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 08:30:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1537,15 +1640,97 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "v93b823ltm"
+          "Value": "lzagvscfbe"
         },
         {
           "Name": "label",
-          "Value": "assets/css/styles.css"
+          "Value": "assets/img/b1.jpg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-rVqIWEfeQDvJVHnxLaeV9LNE4kj0SqSPcL/812s3zCs="
+          "Value": "sha256-oYqtqiBxpypmHuFQBzsTLZh7seQOjOVfA1cWDMXCZ3U="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/b2.7g6xll9jmw.jpg",
+      "AssetFile": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\img\\b2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2091570"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GWjiD2Th2OmV/mO/fftLKfEpJ8s5t8nk5Fmlvx1Agcg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 08:30:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7g6xll9jmw"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/b2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GWjiD2Th2OmV/mO/fftLKfEpJ8s5t8nk5Fmlvx1Agcg="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/b2.jpg",
+      "AssetFile": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\img\\b2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2091570"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GWjiD2Th2OmV/mO/fftLKfEpJ8s5t8nk5Fmlvx1Agcg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 08:30:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GWjiD2Th2OmV/mO/fftLKfEpJ8s5t8nk5Fmlvx1Agcg="
         }
       ]
     },
@@ -6876,88 +7061,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
-        }
-      ]
-    },
-    {
-      "Route": "login/Login.gcb9j61zn0.html",
-      "AssetFile": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\login\\Login.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2394"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"UMMpbhTIdJao7WcWwqqJNV3QDzU25fQWqJUq9vfIyrQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 08:21:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "gcb9j61zn0"
-        },
-        {
-          "Name": "label",
-          "Value": "login/Login.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-UMMpbhTIdJao7WcWwqqJNV3QDzU25fQWqJUq9vfIyrQ="
-        }
-      ]
-    },
-    {
-      "Route": "login/Login.html",
-      "AssetFile": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\login\\Login.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2394"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"UMMpbhTIdJao7WcWwqqJNV3QDzU25fQWqJUq9vfIyrQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 08:21:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-UMMpbhTIdJao7WcWwqqJNV3QDzU25fQWqJUq9vfIyrQ="
         }
       ]
     },

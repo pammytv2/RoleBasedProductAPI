@@ -1,4 +1,6 @@
 wwwroot\assets\css\styles.css
+wwwroot\assets\img\b1.jpg
+wwwroot\assets\img\b2.jpg
 wwwroot\assets\img\login-bg.png
 wwwroot\assets\js\main.js
 wwwroot\assets\scss\base\_base.scss
@@ -64,4 +66,3 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
-wwwroot\login\Login.html

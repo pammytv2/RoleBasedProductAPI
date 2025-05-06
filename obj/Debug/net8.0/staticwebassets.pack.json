@@ -9,6 +9,14 @@
       "PackagePath": "staticwebassets\\assets\\css\\styles.css"
     },
     {
+      "Id": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\img\\b1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\b1.jpg"
+    },
+    {
+      "Id": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\img\\b2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\b2.jpg"
+    },
+    {
       "Id": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\img\\login-bg.png",
       "PackagePath": "staticwebassets\\assets\\img\\login-bg.png"
     },
@@ -267,10 +275,6 @@
     {
       "Id": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Id": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\login\\Login.html",
-      "PackagePath": "staticwebassets\\login\\Login.html"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.RoleBasedProductAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
