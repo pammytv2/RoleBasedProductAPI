@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RoleBasedProductAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec4022ee24153e6fc93c5556d59d1c9f7c85fa07")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c1e4655b1b4aa8d5b8ac5e729c39013be515772")]
 [assembly: System.Reflection.AssemblyProductAttribute("RoleBasedProductAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RoleBasedProductAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
