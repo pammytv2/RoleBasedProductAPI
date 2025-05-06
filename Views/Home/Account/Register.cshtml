@@ -1,0 +1,113 @@
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = null; // Set layout to null to avoid using the default layout for this page
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Animated Sign in form - Bedimcode</title>
+</head>
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">RoleBasedProduct</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Portfolio</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                </ul>
+
+                <i class="ri-close-line nav__close" id="nav-close"></i>
+            </div>
+
+      
+        </nav> 
+    </header>
+
+
+    <div class="login">
+        <img src="assets/img/b1.jpg" alt="login image" class="login__img">
+
+        <form action="" class="login__form">
+            <h1 class="login__title">Register</h1>
+
+            <div class="login__content">
+                <div class="login__box">
+                    <i class="ri-user-3-line login__icon"></i>
+
+                    <div class="login__box-input">
+                        <input type="text" required class="login__input" id="username" placeholder=" ">
+                        <label for="username" class="login__label">UserName</label>
+                    </div>
+                </div>
+                
+                 
+                <div class="login__box">
+                    <i class="ri-user-3-line login__icon"></i>
+
+                    <div class="login__box-input">
+                        <input type="email" required class="login__input" id="login-email" placeholder=" ">
+                        <label for="login-email" class="login__label">Email</label>
+                    </div>
+                </div>
+
+
+                
+
+                    @* Password *@
+                <div class="login__box">
+                    <i class="ri-lock-2-line login__icon"></i>
+
+                    <div class="login__box-input">
+                        <input type="password" required class="login__input" id="login-pass1" placeholder=" ">
+                        <label for="login-pass1" class="login__label">Password</label>
+                        <i class="ri-eye-off-line login__eye" id="login-eye1"></i>
+                    </div>
+                </div>
+
+
+                   @*  ConfirmPassword *@
+                <div class="login__box">
+                    <i class="ri-lock-2-line login__icon"></i>
+
+                    <div class="login__box-input">
+                        <input type="password" required class="login__input" id="login-pass" placeholder=" ">
+                        <label for="login-pass" class="login__label">ConfirmPassword</label>
+                        <i class="ri-eye-off-line login__eye" id="login-eye"></i>
+                    </div>
+                </div>
+
+            <div class="login__check">
+                <div class="login__check-group">
+                    <input type="checkbox" class="login__check-input" id="login-check">
+                    <label for="login-check" class="login__check-label">Remember me</label>
+                </div>
+
+                <a href="#" class="login__forgot">Forgot Password?</a>
+            </div>
+
+            <button type="submit" class="login__button">Sign in</button>
+
+            
+        </form>
+    </div>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/Register.js"></script>
+</body>
+</html>

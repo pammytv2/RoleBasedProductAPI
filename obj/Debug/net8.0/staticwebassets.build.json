@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Zxjxd9+tu1O0TdqR2LkAMKplQCDz8xRKfOoCm5QNrBU=",
+  "Hash": "tS+GEJQLOyfYZ2LpUJObtjfrag/YvJvrWM0IdMLrkkM=",
   "Source": "RoleBasedProductAPI",
   "BasePath": "_content/RoleBasedProductAPI",
   "Mode": "Default",
@@ -157,8 +157,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "05fzi8fbgh",
-      "Integrity": "nKaBgRrpJgGe/IIbzhEhnJT6YRw/JMWjnGtEX+lKPwI=",
+      "Fingerprint": "pelhenvqco",
+      "Integrity": "X3+mAQpHSx2hxHBOI4DR0pudeJC32KUEzGbPJzWgxRM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\js\\main.js"
@@ -1817,51 +1817,6 @@
       ]
     },
     {
-      "Route": "assets/js/main.05fzi8fbgh.js",
-      "AssetFile": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\js\\main.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "793"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"nKaBgRrpJgGe/IIbzhEhnJT6YRw/JMWjnGtEX+lKPwI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 11 Oct 2023 23:39:52 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "05fzi8fbgh"
-        },
-        {
-          "Name": "label",
-          "Value": "assets/js/main.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-nKaBgRrpJgGe/IIbzhEhnJT6YRw/JMWjnGtEX+lKPwI="
-        }
-      ]
-    },
-    {
       "Route": "assets/js/main.js",
       "AssetFile": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\js\\main.js",
       "Selectors": [],
@@ -1872,7 +1827,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "793"
+          "Value": "907"
         },
         {
           "Name": "Content-Type",
@@ -1880,11 +1835,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nKaBgRrpJgGe/IIbzhEhnJT6YRw/JMWjnGtEX+lKPwI=\""
+          "Value": "\"X3+mAQpHSx2hxHBOI4DR0pudeJC32KUEzGbPJzWgxRM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Oct 2023 23:39:52 GMT"
+          "Value": "Tue, 06 May 2025 11:56:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1894,7 +1849,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-nKaBgRrpJgGe/IIbzhEhnJT6YRw/JMWjnGtEX+lKPwI="
+          "Value": "sha256-X3+mAQpHSx2hxHBOI4DR0pudeJC32KUEzGbPJzWgxRM="
+        }
+      ]
+    },
+    {
+      "Route": "assets/js/main.pelhenvqco.js",
+      "AssetFile": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\js\\main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "907"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X3+mAQpHSx2hxHBOI4DR0pudeJC32KUEzGbPJzWgxRM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 11:56:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pelhenvqco"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/js/main.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-X3+mAQpHSx2hxHBOI4DR0pudeJC32KUEzGbPJzWgxRM="
         }
       ]
     },

@@ -48,17 +48,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-INx1QiNDOFLZ5/WbBFGTIk/7e6WMkmeLl4UhuaqJcKE="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"687889"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022INx1QiNDOFLZ5/WbBFGTIk/7e6WMkmeLl4UhuaqJcKE=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Oct 2023 23:39:52 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/RoleBasedProductAPI/assets/js/main.05fzi8fbgh.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\main.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"05fzi8fbgh"},{"Name":"integrity","Value":"sha256-nKaBgRrpJgGe/IIbzhEhnJT6YRw/JMWjnGtEX\u002BlKPwI="},{"Name":"label","Value":"_content/RoleBasedProductAPI/assets/js/main.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"793"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022nKaBgRrpJgGe/IIbzhEhnJT6YRw/JMWjnGtEX\u002BlKPwI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Oct 2023 23:39:52 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/RoleBasedProductAPI/assets/js/main.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\main.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-nKaBgRrpJgGe/IIbzhEhnJT6YRw/JMWjnGtEX\u002BlKPwI="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"793"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022nKaBgRrpJgGe/IIbzhEhnJT6YRw/JMWjnGtEX\u002BlKPwI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Oct 2023 23:39:52 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-X3\u002BmAQpHSx2hxHBOI4DR0pudeJC32KUEzGbPJzWgxRM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"907"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022X3\u002BmAQpHSx2hxHBOI4DR0pudeJC32KUEzGbPJzWgxRM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 06 May 2025 11:56:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/RoleBasedProductAPI/assets/js/main.pelhenvqco.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\main.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pelhenvqco"},{"Name":"integrity","Value":"sha256-X3\u002BmAQpHSx2hxHBOI4DR0pudeJC32KUEzGbPJzWgxRM="},{"Name":"label","Value":"_content/RoleBasedProductAPI/assets/js/main.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"907"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022X3\u002BmAQpHSx2hxHBOI4DR0pudeJC32KUEzGbPJzWgxRM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 06 May 2025 11:56:49 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/RoleBasedProductAPI/assets/scss/base/_base.scss">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\scss\base\_base.scss'))</AssetFile>

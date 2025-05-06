@@ -18,10 +18,11 @@ namespace RoleBasedProductAPI.Controllers
             return View("views/Home/Account/login.cshtml");
         }
 
-        public IActionResult products()
+        public IActionResult Register()
         {
-            return View();
+            return View("views/Home/Account/Register.cshtml");
         }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

@@ -260,6 +260,26 @@ body {
 }
 
 
+.login__box-input {
+  position: relative;
+  width: 100%;
+}
+
+.login__eye {
+  position: absolute;
+  right: 0.75rem;  /* ขยับจากขอบขวาเล็กน้อย */
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  cursor: pointer;
+}
+
+/* ปรับ padding input เพื่อเว้นพื้นที่ให้ icon */
+.login__input {
+  padding-right: 2rem;
+}
+
+
 
 
 
