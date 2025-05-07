@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tS+GEJQLOyfYZ2LpUJObtjfrag/YvJvrWM0IdMLrkkM=",
+  "Hash": "k7wb2PCE2RlCBSjqh8CXNiNn5TOziI9YGONOT8fI+8w=",
   "Source": "RoleBasedProductAPI",
   "BasePath": "_content/RoleBasedProductAPI",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "7q4huk4j10",
-      "Integrity": "L+BtJhr1DK1yD2R/T0WbMibVVhFWjB2tC0Yv0AaUhbc=",
+      "Fingerprint": "2lxjsnvb1h",
+      "Integrity": "xjjlxFtXKOVDsP7v/zHCFpFpzKSTVPuszZDuTQPghoY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\css\\styles.css"
@@ -157,11 +157,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "pelhenvqco",
-      "Integrity": "X3+mAQpHSx2hxHBOI4DR0pudeJC32KUEzGbPJzWgxRM=",
+      "Fingerprint": "sibruvzbr2",
+      "Integrity": "FB1N6IbE29Zo2CBUd6M1ph4TyDU/gk4he2he7V+FuiQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\js\\main.js"
+    },
+    {
+      "Identity": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\js\\Register.js",
+      "SourceId": "RoleBasedProductAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\",
+      "BasePath": "_content/RoleBasedProductAPI",
+      "RelativePath": "assets/js/Register#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kqcd1w8xvn",
+      "Integrity": "vGIhyJJIFvUYjhcVF4kEpqdLtz6ofnI0WCnrbxJyvp4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\js\\Register.js"
     },
     {
       "Identity": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\scss\\base\\_base.scss",
@@ -1489,7 +1510,7 @@
   ],
   "Endpoints": [
     {
-      "Route": "assets/css/styles.7q4huk4j10.css",
+      "Route": "assets/css/styles.2lxjsnvb1h.css",
       "AssetFile": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\css\\styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1499,7 +1520,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5592"
+          "Value": "5996"
         },
         {
           "Name": "Content-Type",
@@ -1507,11 +1528,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"L+BtJhr1DK1yD2R/T0WbMibVVhFWjB2tC0Yv0AaUhbc=\""
+          "Value": "\"xjjlxFtXKOVDsP7v/zHCFpFpzKSTVPuszZDuTQPghoY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 09:49:48 GMT"
+          "Value": "Tue, 06 May 2025 12:15:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1521,7 +1542,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "7q4huk4j10"
+          "Value": "2lxjsnvb1h"
         },
         {
           "Name": "label",
@@ -1529,7 +1550,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-L+BtJhr1DK1yD2R/T0WbMibVVhFWjB2tC0Yv0AaUhbc="
+          "Value": "sha256-xjjlxFtXKOVDsP7v/zHCFpFpzKSTVPuszZDuTQPghoY="
         }
       ]
     },
@@ -1544,7 +1565,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5592"
+          "Value": "5996"
         },
         {
           "Name": "Content-Type",
@@ -1552,11 +1573,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"L+BtJhr1DK1yD2R/T0WbMibVVhFWjB2tC0Yv0AaUhbc=\""
+          "Value": "\"xjjlxFtXKOVDsP7v/zHCFpFpzKSTVPuszZDuTQPghoY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 09:49:48 GMT"
+          "Value": "Tue, 06 May 2025 12:15:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1566,7 +1587,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-L+BtJhr1DK1yD2R/T0WbMibVVhFWjB2tC0Yv0AaUhbc="
+          "Value": "sha256-xjjlxFtXKOVDsP7v/zHCFpFpzKSTVPuszZDuTQPghoY="
         }
       ]
     },
@@ -1827,7 +1848,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "907"
+          "Value": "883"
         },
         {
           "Name": "Content-Type",
@@ -1835,11 +1856,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"X3+mAQpHSx2hxHBOI4DR0pudeJC32KUEzGbPJzWgxRM=\""
+          "Value": "\"FB1N6IbE29Zo2CBUd6M1ph4TyDU/gk4he2he7V+FuiQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 11:56:49 GMT"
+          "Value": "Tue, 06 May 2025 12:22:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1849,12 +1870,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-X3+mAQpHSx2hxHBOI4DR0pudeJC32KUEzGbPJzWgxRM="
+          "Value": "sha256-FB1N6IbE29Zo2CBUd6M1ph4TyDU/gk4he2he7V+FuiQ="
         }
       ]
     },
     {
-      "Route": "assets/js/main.pelhenvqco.js",
+      "Route": "assets/js/main.sibruvzbr2.js",
       "AssetFile": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\js\\main.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1864,7 +1885,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "907"
+          "Value": "883"
         },
         {
           "Name": "Content-Type",
@@ -1872,11 +1893,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"X3+mAQpHSx2hxHBOI4DR0pudeJC32KUEzGbPJzWgxRM=\""
+          "Value": "\"FB1N6IbE29Zo2CBUd6M1ph4TyDU/gk4he2he7V+FuiQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 11:56:49 GMT"
+          "Value": "Tue, 06 May 2025 12:22:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1886,7 +1907,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "pelhenvqco"
+          "Value": "sibruvzbr2"
         },
         {
           "Name": "label",
@@ -1894,7 +1915,89 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-X3+mAQpHSx2hxHBOI4DR0pudeJC32KUEzGbPJzWgxRM="
+          "Value": "sha256-FB1N6IbE29Zo2CBUd6M1ph4TyDU/gk4he2he7V+FuiQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/js/Register.js",
+      "AssetFile": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\js\\Register.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "839"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vGIhyJJIFvUYjhcVF4kEpqdLtz6ofnI0WCnrbxJyvp4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 12:23:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vGIhyJJIFvUYjhcVF4kEpqdLtz6ofnI0WCnrbxJyvp4="
+        }
+      ]
+    },
+    {
+      "Route": "assets/js/Register.kqcd1w8xvn.js",
+      "AssetFile": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\js\\Register.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "839"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vGIhyJJIFvUYjhcVF4kEpqdLtz6ofnI0WCnrbxJyvp4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 12:23:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kqcd1w8xvn"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/js/Register.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vGIhyJJIFvUYjhcVF4kEpqdLtz6ofnI0WCnrbxJyvp4="
         }
       ]
     },

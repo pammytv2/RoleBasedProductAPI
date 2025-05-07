@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/RoleBasedProductAPI/assets/css/styles.7q4huk4j10.css">
+    <StaticWebAssetEndpoint Include="_content/RoleBasedProductAPI/assets/css/styles.2lxjsnvb1h.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\styles.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7q4huk4j10"},{"Name":"integrity","Value":"sha256-L\u002BBtJhr1DK1yD2R/T0WbMibVVhFWjB2tC0Yv0AaUhbc="},{"Name":"label","Value":"_content/RoleBasedProductAPI/assets/css/styles.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5592"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022L\u002BBtJhr1DK1yD2R/T0WbMibVVhFWjB2tC0Yv0AaUhbc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 04 May 2025 09:49:48 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2lxjsnvb1h"},{"Name":"integrity","Value":"sha256-xjjlxFtXKOVDsP7v/zHCFpFpzKSTVPuszZDuTQPghoY="},{"Name":"label","Value":"_content/RoleBasedProductAPI/assets/css/styles.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5996"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022xjjlxFtXKOVDsP7v/zHCFpFpzKSTVPuszZDuTQPghoY=\u0022"},{"Name":"Last-Modified","Value":"Tue, 06 May 2025 12:15:24 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/RoleBasedProductAPI/assets/css/styles.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\styles.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-L\u002BBtJhr1DK1yD2R/T0WbMibVVhFWjB2tC0Yv0AaUhbc="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5592"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022L\u002BBtJhr1DK1yD2R/T0WbMibVVhFWjB2tC0Yv0AaUhbc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 04 May 2025 09:49:48 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xjjlxFtXKOVDsP7v/zHCFpFpzKSTVPuszZDuTQPghoY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5996"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022xjjlxFtXKOVDsP7v/zHCFpFpzKSTVPuszZDuTQPghoY=\u0022"},{"Name":"Last-Modified","Value":"Tue, 06 May 2025 12:15:24 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/RoleBasedProductAPI/assets/img/b1.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\b1.jpg'))</AssetFile>
@@ -51,14 +51,26 @@
     <StaticWebAssetEndpoint Include="_content/RoleBasedProductAPI/assets/js/main.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\main.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-X3\u002BmAQpHSx2hxHBOI4DR0pudeJC32KUEzGbPJzWgxRM="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"907"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022X3\u002BmAQpHSx2hxHBOI4DR0pudeJC32KUEzGbPJzWgxRM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 06 May 2025 11:56:49 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-FB1N6IbE29Zo2CBUd6M1ph4TyDU/gk4he2he7V\u002BFuiQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"883"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022FB1N6IbE29Zo2CBUd6M1ph4TyDU/gk4he2he7V\u002BFuiQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 06 May 2025 12:22:19 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/RoleBasedProductAPI/assets/js/main.pelhenvqco.js">
+    <StaticWebAssetEndpoint Include="_content/RoleBasedProductAPI/assets/js/main.sibruvzbr2.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\main.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pelhenvqco"},{"Name":"integrity","Value":"sha256-X3\u002BmAQpHSx2hxHBOI4DR0pudeJC32KUEzGbPJzWgxRM="},{"Name":"label","Value":"_content/RoleBasedProductAPI/assets/js/main.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"907"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022X3\u002BmAQpHSx2hxHBOI4DR0pudeJC32KUEzGbPJzWgxRM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 06 May 2025 11:56:49 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"sibruvzbr2"},{"Name":"integrity","Value":"sha256-FB1N6IbE29Zo2CBUd6M1ph4TyDU/gk4he2he7V\u002BFuiQ="},{"Name":"label","Value":"_content/RoleBasedProductAPI/assets/js/main.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"883"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022FB1N6IbE29Zo2CBUd6M1ph4TyDU/gk4he2he7V\u002BFuiQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 06 May 2025 12:22:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/RoleBasedProductAPI/assets/js/Register.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\Register.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vGIhyJJIFvUYjhcVF4kEpqdLtz6ofnI0WCnrbxJyvp4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"839"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022vGIhyJJIFvUYjhcVF4kEpqdLtz6ofnI0WCnrbxJyvp4=\u0022"},{"Name":"Last-Modified","Value":"Tue, 06 May 2025 12:23:15 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/RoleBasedProductAPI/assets/js/Register.kqcd1w8xvn.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\Register.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kqcd1w8xvn"},{"Name":"integrity","Value":"sha256-vGIhyJJIFvUYjhcVF4kEpqdLtz6ofnI0WCnrbxJyvp4="},{"Name":"label","Value":"_content/RoleBasedProductAPI/assets/js/Register.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"839"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022vGIhyJJIFvUYjhcVF4kEpqdLtz6ofnI0WCnrbxJyvp4=\u0022"},{"Name":"Last-Modified","Value":"Tue, 06 May 2025 12:23:15 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/RoleBasedProductAPI/assets/scss/base/_base.scss">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\scss\base\_base.scss'))</AssetFile>

@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>7q4huk4j10</Fingerprint>
-      <Integrity>L+BtJhr1DK1yD2R/T0WbMibVVhFWjB2tC0Yv0AaUhbc=</Integrity>
+      <Fingerprint>2lxjsnvb1h</Fingerprint>
+      <Integrity>xjjlxFtXKOVDsP7v/zHCFpFpzKSTVPuszZDuTQPghoY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\styles.css'))</OriginalItemSpec>
@@ -84,11 +84,29 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>pelhenvqco</Fingerprint>
-      <Integrity>X3+mAQpHSx2hxHBOI4DR0pudeJC32KUEzGbPJzWgxRM=</Integrity>
+      <Fingerprint>sibruvzbr2</Fingerprint>
+      <Integrity>FB1N6IbE29Zo2CBUd6M1ph4TyDU/gk4he2he7V+FuiQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\main.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\Register.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RoleBasedProductAPI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RoleBasedProductAPI</BasePath>
+      <RelativePath>assets/js/Register.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kqcd1w8xvn</Fingerprint>
+      <Integrity>vGIhyJJIFvUYjhcVF4kEpqdLtz6ofnI0WCnrbxJyvp4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\Register.js'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\scss\base\_base.scss'))">
       <SourceType>Package</SourceType>
