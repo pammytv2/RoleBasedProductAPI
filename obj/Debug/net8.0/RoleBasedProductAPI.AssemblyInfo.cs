@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RoleBasedProductAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+292760a5f85b47d3c9268216065c35669cdcec16")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba920467ed0ab1ad840d797389b605cc267a79d5")]
 [assembly: System.Reflection.AssemblyProductAttribute("RoleBasedProductAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RoleBasedProductAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
