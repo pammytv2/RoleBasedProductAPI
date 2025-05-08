@@ -15,7 +15,7 @@ namespace RoleBasedProductAPI.Controllers
             _context = context;
         }
 
-        // ✅ POST: api/users/register
+        // POST: api/users/register
         [HttpPost("register")]
         public IActionResult Register([FromBody] User user)
         {
@@ -33,14 +33,14 @@ namespace RoleBasedProductAPI.Controllers
             return Ok(new { message = "Registration successful", user });
         }
 
-        // ✅ GET: api/users
+        //  GET: api/users
         [HttpGet]
         public IActionResult GetUsers()
         {
             return Ok(_context.Users.ToList());
         }
 
-        // ✅ GET: api/users/5
+        //  GET: api/users/5
         [HttpGet("{id}")]
         public IActionResult GetUser(int id)
         {
@@ -51,7 +51,7 @@ namespace RoleBasedProductAPI.Controllers
             return Ok(user);
         }
 
-        // ✅ PUT: api/users/5
+        // PUT: api/users/5
         [HttpPut("{id}")]
         public IActionResult UpdateUser(int id, [FromBody] User updated)
         {
@@ -66,7 +66,7 @@ namespace RoleBasedProductAPI.Controllers
             return NoContent();
         }
 
-        // ✅ DELETE: api/users/5
+        // DELETE: api/users/5
         [HttpDelete("{id}")]
         public IActionResult DeleteUser(int id)
         {

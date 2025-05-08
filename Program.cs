@@ -12,6 +12,22 @@ builder.Services.AddDbContext<ApplicationDbContext>(
 
 var app = builder.Build();
 
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+
+    try
+    {
+        dbContext.Database.CanConnect(); 
+        Console.WriteLine("Connected to SQL Server successfully!");
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine("Failed to connect to SQL Server.");
+        Console.WriteLine($"Error: {ex.Message}");
+    }
+}
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
@@ -29,6 +45,5 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=login}/{id?}");
-
+    pattern: "{controller=Home}/{action=Login}/{id?}");
 app.Run();

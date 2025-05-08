@@ -27,7 +27,6 @@ E:\RoleBasedProductAPI\RoleBasedProductAPI\RoleBasedProductAPI\obj\Debug\net8.0\
 E:\RoleBasedProductAPI\RoleBasedProductAPI\RoleBasedProductAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.RoleBasedProductAPI.props
 E:\RoleBasedProductAPI\RoleBasedProductAPI\RoleBasedProductAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.RoleBasedProductAPI.props
 E:\RoleBasedProductAPI\RoleBasedProductAPI\RoleBasedProductAPI\obj\Debug\net8.0\staticwebassets.pack.json
-E:\RoleBasedProductAPI\RoleBasedProductAPI\RoleBasedProductAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 E:\RoleBasedProductAPI\RoleBasedProductAPI\RoleBasedProductAPI\obj\Debug\net8.0\RoleBasedProductAPI.dll
 E:\RoleBasedProductAPI\RoleBasedProductAPI\RoleBasedProductAPI\obj\Debug\net8.0\refint\RoleBasedProductAPI.dll
 E:\RoleBasedProductAPI\RoleBasedProductAPI\RoleBasedProductAPI\obj\Debug\net8.0\RoleBasedProductAPI.pdb
