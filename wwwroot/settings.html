@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/menu.css" />
+    <title>ตั้งค่า - ระบบคลังสินค้า</title>
+
+    <style>
+      body {
+        font-family: 'Prompt', sans-serif;
+        background-color: #f5f6fa;
+        padding-left: 250px;
+        margin: 0;
+      }
+
+      .main {
+        padding: 2rem;
+      }
+
+      .card {
+        background: white;
+        padding: 2rem;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.05);
+        margin-bottom: 2rem;
+      }
+
+      .card h2 {
+        margin-bottom: 1.5rem;
+      }
+
+      .form-group {
+        margin-bottom: 1.5rem;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+      }
+
+      input, select {
+        width: 100%;
+        padding: 0.75rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 1rem;
+      }
+
+      .btn {
+        background-color: #4723D9;
+        color: white;
+        padding: 0.75rem 1.5rem;
+        border: none;
+        border-radius: 6px;
+        font-size: 1rem;
+        cursor: pointer;
+      }
+
+      .btn:hover {
+        background-color: #3a1fbd;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav" id="nav">
+      <nav class="nav__content">
+        <a href="#" class="nav__logo"><span class="nav__logo-name">Menu</span></a>
+        <div class="nav__list">
+          <a href="dashboard.html" class="nav__link"><i class="bx bx-grid-alt"></i><span class="nav__name">แดชบอร์ด</span></a>
+          <a href="products.html" class="nav__link"><i class="bx bx-package"></i><span class="nav__name">สินค้า</span></a>
+          <a href="stock-in.html" class="nav__link"><i class="bx bx-download"></i><span class="nav__name">รับเข้า</span></a>
+          <a href="stock-out.html" class="nav__link"><i class="bx bx-upload"></i><span class="nav__name">เบิกออก</span></a>
+          <a href="reports.html" class="nav__link"><i class="bx bx-bar-chart"></i><span class="nav__name">รายงาน</span></a>
+          <a href="settings.html" class="nav__link active-link"><i class="bx bx-cog"></i><span class="nav__name">ตั้งค่า</span></a>
+        </div>
+      </nav>
+    </div>
+
+    <main class="main">
+      <div class="card">
+        <h2>ตั้งค่าทั่วไป</h2>
+        <div class="form-group">
+          <label>ชื่อบริษัท / หน่วยงาน</label>
+          <input type="text" placeholder="เช่น บริษัท วีแวร์ คอร์ปอเรชั่น จำกัด" />
+        </div>
+        <div class="form-group">
+          <label>โลโก้</label>
+          <input type="file" />
+        </div>
+        <div class="form-group">
+          <label>ภาษาเริ่มต้น</label>
+          <select>
+            <option>ไทย</option>
+            <option>English</option>
+          </select>
+        </div>
+        <button class="btn">บันทึกการตั้งค่า</button>
+      </div>
+
+      <div class="card">
+        <h2>การแจ้งเตือน</h2>
+        <div class="form-group">
+          <label>จำนวนสินค้าขั้นต่ำ (แจ้งเตือน)</label>
+          <input type="number" min="1" placeholder="เช่น 10" />
+        </div>
+        <div class="form-group">
+          <label>เปิดใช้งานการแจ้งเตือน</label>
+          <select>
+            <option>เปิด</option>
+            <option>ปิด</option>
+          </select>
+        </div>
+        <button class="btn">บันทึก</button>
+      </div>
+    </main>
+
+    <script src="assets/js/menubar.js"></script>
+  </body>
+</html>

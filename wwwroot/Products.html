@@ -1,73 +1,386 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!--=============== BOXICONS ===============-->
-    <link
-      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-
-    <!--=============== CSS ===============-->
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>จัดการสินค้า</title>
     <link rel="stylesheet" href="assets/css/menu.css" />
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+    <style>
+        /* Reset and base styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-    <title>Responsive sidebar menu - Bedimcode</title>
-  </head>
-  <body>
-    <!--=============== NAV ===============-->
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            display: flex;
+            min-height: 100vh;
+            color: #333;
+        }
+
+        /* Sidebar styles (matching the previous navigation) */
+        
+
+        /* Main content styles */
+        .main-content {
+            flex-grow: 1;
+            padding: 20px;
+            background-color: #f9f9f9;
+            overflow-x: auto;
+        }
+
+        .products-container {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+
+        .products-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .search-filter-container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .search-bar {
+            display: flex;
+            flex-grow: 1;
+            margin-right: 20px;
+        }
+
+        .search-bar input {
+            flex-grow: 1;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px 0 0 4px;
+        }
+
+        .search-bar button {
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: white;
+            border: 1px solid #007bff;
+            border-radius: 0 4px 4px 0;
+            cursor: pointer;
+        }
+
+        .filter-select {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Product Table Styles */
+        .products-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .products-table th,
+        .products-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        .products-table th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        .products-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .products-table tr:hover {
+            background-color: #f5f5f5;
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .action-btn {
+            padding: 5px 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .edit-btn {
+            background-color: #ffc107;
+            color: white;
+        }
+
+        .delete-btn {
+            background-color: #dc3545;
+            color: white;
+        }
+
+        .view-btn {
+            background-color: #28a745;
+            color: white;
+        }
+
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.4);
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: 10% auto;
+            padding: 20px;
+            border-radius: 8px;
+            width: 80%;
+            max-width: 600px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+
+        .close-btn {
+            color: #aaa;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close-btn:hover {
+            color: #333;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        /* Responsive adjustments */
+        @media screen and (max-width: 768px) {
+            body {
+                flex-direction: column;
+            }
+
+            
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
     <div class="nav" id="nav">
-      <nav class="nav__content">
-        <div class="nav__toggle" id="nav-toggle">
-          <i class="bx bx-chevron-right"></i>
-        </div>
-
-        <a href="#" class="nav__logo">
-          <!-- <i class='bx bxs-heart' ></i> -->
-          <span class="nav__logo-name">Menu</span>
-        </a>
-
-        <div class="nav__list">
-          <a href="dashboard.html" class="nav__link active-link">
-            <i class="bx bx-grid-alt"></i>
-            <span class="nav__name">แดชบอร์ด</span>
-          </a>
-
-          <a href="products.html" class="nav__link">
-            <i class="bx bx-package"></i>
-            <span class="nav__name">สินค้า</span>
-          </a>
-
-          <a href="stock-in.html" class="nav__link">
-            <i class="bx bx-download"></i>
-            <span class="nav__name">รับเข้า</span>
-          </a>
-
-          <a href="stock-out.html" class="nav__link">
-            <i class="bx bx-upload"></i>
-            <span class="nav__name">เบิกออก</span>
-          </a>
-
-          <a href="reports.html" class="nav__link">
-            <i class="bx bx-bar-chart"></i>
-            <span class="nav__name">รายงาน</span>
-          </a>
-
-          <a href="settings.html" class="nav__link">
-            <i class="bx bx-cog"></i>
-            <span class="nav__name">ตั้งค่า</span>
-          </a>
-        </div>
-      </nav>
+        <nav class="nav__content">
+            <a href="#" class="nav__logo">
+                <span class="nav__logo-name">Menu</span>
+            </a>
+            <div class="nav__list">
+                <a href="dashboard.html" class="nav__link">
+                    <i class="bx bx-grid-alt"></i>
+                    <span class="nav__name">แดชบอร์ด</span>
+                </a>
+                <a href="products.html" class="nav__link active-link">
+                    <i class="bx bx-package"></i>
+                    <span class="nav__name">สินค้า</span>
+                </a>
+                <a href="stock-in.html" class="nav__link">
+                    <i class="bx bx-download"></i>
+                    <span class="nav__name">รับเข้า</span>
+                </a>
+                <a href="stock-out.html" class="nav__link">
+                    <i class="bx bx-upload"></i>
+                    <span class="nav__name">เบิกออก</span>
+                </a>
+                <a href="reports.html" class="nav__link">
+                    <i class="bx bx-bar-chart"></i>
+                    <span class="nav__name">รายงาน</span>
+                </a>
+                <a href="settings.html" class="nav__link">
+                    <i class="bx bx-cog"></i>
+                    <span class="nav__name">ตั้งค่า</span>
+                </a>
+            </div>
+        </nav>
     </div>
 
-    <!--=============== MAIN ===============-->
-    <main class="container section">
-      <h1>Components</h1>
-    </main>
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="products-container">
+            <div class="products-header">
+                <h1>จัดการสินค้า</h1>
+                <button class="btn" onclick="openAddProductModal()">
+                    <i class="bx bx-plus"></i> เพิ่มสินค้าใหม่
+                </button>
+            </div>
 
-    <!--=============== MAIN JS ===============-->
-    <script src="assets/js/menubar.js"></script>
-  </body>
-</html>
+            <!-- Search and Filter Section -->
+            <div class="search-filter-container">
+                <div class="search-bar">
+                    <input type="text" id="searchInput" placeholder="ค้นหาสินค้า...">
+                    <button onclick="searchProducts()">
+                        <i class="bx bx-search"></i>
+                    </button>
+                </div>
+
+                <select class="filter-select" id="categoryFilter" onchange="filterProducts()">
+                    <option value="">ทั้งหมด</option>
+                    <option value="clothing">เสื้อผ้า</option>
+                    <option value="shoes">รองเท้า</option>
+                    <option value="accessories">เครื่องประดับ</option>
+                </select>
+            </div>
+
+            <!-- Products Table -->
+            <div class="table-responsive">
+                <table class="products-table">
+                    <thead>
+                        <tr>
+                            <th>รหัสสินค้า</th>
+                            <th>ชื่อสินค้า</th>
+                            <th>ประเภท</th>
+                            <th>จำนวนคงเหลือ</th>
+                            <th>หน่วย</th>
+                            <th>การดำเนินการ</th>
+                        </tr>
+                    </thead>
+                    <tbody id="productsTableBody">
+                        <tr>
+                            <td>PRD-001</td>
+                            <td>เสื้อยืดคอกลม</td>
+                            <td>เสื้อผ้า</td>
+                            <td>500</td>
+                            <td>ชิ้น</td>
+                            <td>
+                                <div class="action-buttons">
+                                    <button class="action-btn view-btn" onclick="viewProductDetails('PRD-001')">
+                                        <i class="bx bx-show"></i>
+                                    </button>
+                                    <button class="action-btn edit-btn" onclick="editProduct('PRD-001')">
+                                        <i class="bx bx-edit"></i>
+                                    </button>
+                                    <button class="action-btn delete-btn" onclick="deleteProduct('PRD-001')">
+                                        <i class="bx bx-trash"></i>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>PRD-002</td>
+                            <td>กางเกงยีนส์</td>
+                            <td>เสื้อผ้า</td>
+                            <td>250</td>
+                            <td>ชิ้น</td>
+                            <td>
+                                <div class="action-buttons">
+                                    <button class="action-btn view-btn" onclick="viewProductDetails('PRD-002')">
+                                        <i class="bx bx-show"></i>
+                                    </button>
+                                    <button class="action-btn edit-btn" onclick="editProduct('PRD-002')">
+                                        <i class="bx bx-edit"></i>
+                                    </button>
+                                    <button class="action-btn delete-btn" onclick="deleteProduct('PRD-002')">
+                                        <i class="bx bx-trash"></i>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>PRD-003</td>
+                            <td>รองเท้าผ้าใบ</td>
+                            <td>รองเท้า</td>
+                            <td>100</td>
+                            <td>คู่</td>
+                            <td>
+                                <div class="action-buttons">
+                                    <button class="action-btn view-btn" onclick="viewProductDetails('PRD-003')">
+                                        <i class="bx bx-show"></i>
+                                    </button>
+                                    <button class="action-btn edit-btn" onclick="editProduct('PRD-003')">
+                                        <i class="bx bx-edit"></i>
+                                    </button>
+                                    <button class="action-btn delete-btn" onclick="deleteProduct('PRD-003')">
+                                        <i class="bx bx-trash"></i>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Add/Edit Product Modal -->
+        <div id="productModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 id="modalTitle">เพิ่มสินค้าใหม่</h2>
+                    <span class="close-btn" onclick="closeModal()">&times;</span>
+                </div>
+                <form id="productForm">
+                    <input type="hidden" id="productId">
+                    <div class="form-group">
+                        <label for="productCode">รหัสสินค้า</label>
+                        <input type="text" id="productCode" required>
+                    </div>
+                    <div class="form-group">
+                        <label
