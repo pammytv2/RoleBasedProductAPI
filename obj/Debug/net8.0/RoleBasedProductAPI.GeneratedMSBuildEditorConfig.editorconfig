@@ -28,6 +28,30 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBY2NvdW50XFJlZ2lzdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/RoleBasedProductAPI/RoleBasedProductAPI/RoleBasedProductAPI/Views/Home/Products/dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0c1xkYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/RoleBasedProductAPI/RoleBasedProductAPI/RoleBasedProductAPI/Views/Home/Products/Products.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0c1xQcm9kdWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/RoleBasedProductAPI/RoleBasedProductAPI/RoleBasedProductAPI/Views/Home/Products/reports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0c1xyZXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/RoleBasedProductAPI/RoleBasedProductAPI/RoleBasedProductAPI/Views/Home/Products/settings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0c1xzZXR0aW5ncy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/RoleBasedProductAPI/RoleBasedProductAPI/RoleBasedProductAPI/Views/Home/Products/stock-in.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0c1xzdG9jay1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/RoleBasedProductAPI/RoleBasedProductAPI/RoleBasedProductAPI/Views/Home/Products/stock-out.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0c1xzdG9jay1vdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/RoleBasedProductAPI/RoleBasedProductAPI/RoleBasedProductAPI/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
