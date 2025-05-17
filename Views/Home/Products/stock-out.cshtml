@@ -15,50 +15,44 @@
     />
     
     <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="assets/css/menu.css" />
+    <link rel="stylesheet" href="~/assets/css/menu.css" />
     
     <title>เบิกออกสินค้า - ระบบคลังสินค้า</title>
   </head>
   <body>
     <!--=============== NAV ===============-->
     <div class="nav" id="nav">
-      <nav class="nav__content">
-        <a href="#" class="nav__logo">
-          <span class="nav__logo-name">Menu</span>
-        </a>
-        
-        <div class="nav__list">
-          <a href="dashboard.html" class="nav__link">
-            <i class="bx bx-grid-alt"></i>
-            <span class="nav__name">แดชบอร์ด</span>
-          </a>
-          
-          <a href="products.html" class="nav__link">
-            <i class="bx bx-package"></i>
-            <span class="nav__name">สินค้า</span>
-          </a>
-          
-          <a href="stock-in.html" class="nav__link">
-            <i class="bx bx-download"></i>
-            <span class="nav__name">รับเข้า</span>
-          </a>
-          
-          <a href="stock-out.html" class="nav__link active-link">
-            <i class="bx bx-upload"></i>
-            <span class="nav__name">เบิกออก</span>
-          </a>
-          
-          <a href="reports.html" class="nav__link">
-            <i class="bx bx-bar-chart"></i>
-            <span class="nav__name">รายงาน</span>
-          </a>
-          
-          <a href="settings.html" class="nav__link">
-            <i class="bx bx-cog"></i>
-            <span class="nav__name">ตั้งค่า</span>
-          </a>
-        </div>
-      </nav>
+        <nav class="nav__content">
+            <a href="#" class="nav__logo">
+                <span class="nav__logo-name">Menu</span>
+            </a>
+            <div class="nav__list">
+                <a href="@Url.Action("Dashboard","Home")" class="nav__link active-link">
+                    <i class="bx bx-grid-alt"></i>
+                    <span class="nav__name">แดชบอร์ด</span>
+                </a>
+                <a href="@Url.Action("Products1","Home")" class="nav__link">
+                    <i class="bx bx-package"></i>
+                    <span class="nav__name">สินค้า</span>
+                </a>
+                <a href="@Url.Action("StockIn","Home")" class="nav__link">
+                    <i class="bx bx-download"></i>
+                    <span class="nav__name">รับเข้า</span>
+                </a>
+                <a href="@Url.Action("StockOut","Home")" class="nav__link">
+                    <i class="bx bx-upload"></i>
+                    <span class="nav__name">เบิกออก</span>
+                </a>
+                <a href="@Url.Action("Reports","Home")" class="nav__link">
+                    <i class="bx bx-bar-chart"></i>
+                    <span class="nav__name">รายงาน</span>
+                </a>
+                <a href="@Url.Action("Settings","Home")" class="nav__link">
+                    <i class="bx bx-cog"></i>
+                    <span class="nav__name">ตั้งค่า</span>
+                </a>
+            </div>
+        </nav>
     </div>
 
     <!-- Main Content -->
@@ -177,3 +171,5 @@
               <td>11/05/2568</td>
               <td>แผนกขาย</td>
               <td>SO-2
+ </body>
+     </html> 

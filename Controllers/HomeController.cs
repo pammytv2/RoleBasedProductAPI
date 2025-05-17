@@ -22,6 +22,34 @@ namespace RoleBasedProductAPI.Controllers
         {
             return View("views/Home/Account/Register.cshtml");
         }
+         public IActionResult Dashboard()
+        {
+            return View("views/Home/Products/dashboard.cshtml");
+        }
+         public IActionResult Products1()
+        {
+            return View("views/Home/Products/products.cshtml");
+        }
+        
+        public IActionResult Reports()
+        {
+            return View("views/Home/Products/reports.cshtml");
+        }
+        
+        public IActionResult StockIn()
+        {
+            return View("views/Home/Products/stock-in.cshtml");
+        }
+        
+        public IActionResult StockOut()
+        {
+            return View("views/Home/Products/stock-out.cshtml");
+        }
+        
+        public IActionResult Settings()
+        {
+            return View("views/Home/Products/settings.cshtml");
+        }
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
