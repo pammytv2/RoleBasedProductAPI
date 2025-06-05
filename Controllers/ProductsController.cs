@@ -1,0 +1,38 @@
+using Microsoft.AspNetCore.Mvc;
+using RoleBasedProductAPI.Data;
+using RoleBasedProductAPI.Models;
+
+namespace RoleBasedProductAPI.Controllers
+{
+    [ApiController]
+    [Route("api/[controller]")]
+    public class ProductsController : ControllerBase
+    {
+        private readonly ApplicationDbContext _context;
+
+        public ProductsController(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+
+        // POST: api/products/{id}/withdraw
+        [HttpPost("{id}/withdraw")]
+        public IActionResult Withdraw(int id, [FromBody] WithdrawRequest request)
+        {
+            if (request.Quantity <= 0)
+                return BadRequest("Quantity must be greater than zero.");
+
+            var product = _context.Products.Find(id);
+            if (product == null)
+                return NotFound();
+
+            if (product.Stock < request.Quantity)
+                return BadRequest("Insufficient stock.");
+
+            product.Stock -= request.Quantity;
+            _context.SaveChanges();
+
+            return Ok(product);
+        }
+    }
+}
