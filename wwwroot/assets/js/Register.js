@@ -25,3 +25,45 @@ const showHiddenPass = (loginPass, loginEye) =>{
 
 showHiddenPass('login-pass','login-eye')
 showHiddenPass('login-pass1','login-eye1')
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  const form = document.querySelector('.login__form');
+  if (!form) return;
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    const username = document.getElementById('username').value.trim();
+    const email = document.getElementById('login-email').value.trim();
+    const password = document.getElementById('login-pass1').value;
+    const confirm = document.getElementById('login-pass').value;
+
+    if (password !== confirm) {
+      alert('Passwords do not match');
+      return;
+    }
+
+    try {
+      const response = await fetch('/api/users/register', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ username, email, password })
+      });
+
+      if (!response.ok) {
+        const text = await response.text();
+        alert(`Registration failed: ${text}`);
+        return;
+      }
+
+      alert('Registration successful');
+      // window.location.href = '/Home/login';
+    } catch (err) {
+      console.error(err);
+      alert('An error occurred while registering.');
+    }
+  });
+});

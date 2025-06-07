@@ -6,6 +6,10 @@ namespace RoleBasedProductAPI.Models
     public class User
     {
         public int UserID { get; set; }
+        [Required]
+        [JsonPropertyName("role")]
+        public string Role { get; set; } = "user";
+
 
         [Required]
         [JsonPropertyName("username")]

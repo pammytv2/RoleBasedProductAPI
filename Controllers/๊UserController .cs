@@ -22,10 +22,13 @@ namespace RoleBasedProductAPI.Controllers
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-            // ตรวจสอบ Email ซ้ำ
             var exists = _context.Users.Any(u => u.Email == user.Email);
             if (exists)
                 return BadRequest("Email already registered.");
+
+            // ตั้งค่า default เป็น "user" ถ้าไม่ได้ส่งมา
+            if (string.IsNullOrEmpty(user.Role))
+                user.Role = "user";
 
             _context.Users.Add(user);
             _context.SaveChanges();
@@ -61,6 +64,7 @@ namespace RoleBasedProductAPI.Controllers
             user.Username = updated.Username;
             user.Email = updated.Email;
             user.Password = updated.Password;
+            user.Role = updated.Role;
 
             _context.SaveChanges();
             return NoContent();
@@ -77,5 +81,16 @@ namespace RoleBasedProductAPI.Controllers
             _context.SaveChanges();
             return NoContent();
         }
+        // POST: api/users/login
+        [HttpPost("login")]
+        public IActionResult Login([FromBody] LoginRequest request)
+        {
+            var user = _context.Users.SingleOrDefault(u => u.Email == request.Email && u.Password == request.Password);
+            if (user == null)
+                return Unauthorized("Invalid email or password.");
+
+            return Ok(new { message = "Login successful", user });
+        }
+
     }
 }
