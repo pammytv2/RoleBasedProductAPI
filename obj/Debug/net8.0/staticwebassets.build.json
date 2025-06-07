@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "349zeR5aW4nRjG+qqEtBj4WX5nPFW1x/QjI/77wbJ/U=",
+  "Hash": "i/IfEs9jyu2YolSveKHOux85B0nWfUOLcBJKyHxKTZI=",
   "Source": "RoleBasedProductAPI",
   "BasePath": "_content/RoleBasedProductAPI",
   "Mode": "Default",
@@ -206,12 +206,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\login-bg.png"
     },
     {
-      "Identity": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\js\\Login.js",
+      "Identity": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\js\\login.js",
       "SourceId": "RoleBasedProductAPI",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\",
       "BasePath": "_content/RoleBasedProductAPI",
-      "RelativePath": "assets/js/Login#[.{fingerprint}]?.js",
+      "RelativePath": "assets/js/login#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -220,11 +220,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dhg3n8tt1w",
-      "Integrity": "MR2oU3yOto9WSCGN4PX+B3HWcSKGrTKJgGG1XZApa/s=",
+      "Fingerprint": "8vgr9i1fly",
+      "Integrity": "3HCkmG30Nsipc6SMnCEbllC1ZPCuarpvyGwhek1lZFM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\js\\Login.js"
+      "OriginalItemSpec": "wwwroot\\assets\\js\\login.js"
     },
     {
       "Identity": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\js\\main.js",
@@ -241,8 +241,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "sibruvzbr2",
-      "Integrity": "FB1N6IbE29Zo2CBUd6M1ph4TyDU/gk4he2he7V+FuiQ=",
+      "Fingerprint": "30a65k9t83",
+      "Integrity": "3cINRleZmUiFoYsVl5DTvJjyfZ3rDMQCh08MT7kCDCo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\js\\main.js"
@@ -1034,8 +1034,8 @@
       ]
     },
     {
-      "Route": "assets/js/Login.dhg3n8tt1w.js",
-      "AssetFile": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\js\\Login.js",
+      "Route": "assets/js/login.8vgr9i1fly.js",
+      "AssetFile": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\js\\login.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1044,7 +1044,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1022"
+          "Value": "897"
         },
         {
           "Name": "Content-Type",
@@ -1052,11 +1052,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MR2oU3yOto9WSCGN4PX+B3HWcSKGrTKJgGG1XZApa/s=\""
+          "Value": "\"3HCkmG30Nsipc6SMnCEbllC1ZPCuarpvyGwhek1lZFM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Jun 2025 10:09:51 GMT"
+          "Value": "Sat, 07 Jun 2025 11:22:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1066,21 +1066,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dhg3n8tt1w"
+          "Value": "8vgr9i1fly"
         },
         {
           "Name": "label",
-          "Value": "assets/js/Login.js"
+          "Value": "assets/js/login.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-MR2oU3yOto9WSCGN4PX+B3HWcSKGrTKJgGG1XZApa/s="
+          "Value": "sha256-3HCkmG30Nsipc6SMnCEbllC1ZPCuarpvyGwhek1lZFM="
         }
       ]
     },
     {
-      "Route": "assets/js/Login.js",
-      "AssetFile": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\js\\Login.js",
+      "Route": "assets/js/login.js",
+      "AssetFile": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\js\\login.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1089,7 +1089,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1022"
+          "Value": "897"
         },
         {
           "Name": "Content-Type",
@@ -1097,11 +1097,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MR2oU3yOto9WSCGN4PX+B3HWcSKGrTKJgGG1XZApa/s=\""
+          "Value": "\"3HCkmG30Nsipc6SMnCEbllC1ZPCuarpvyGwhek1lZFM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Jun 2025 10:09:51 GMT"
+          "Value": "Sat, 07 Jun 2025 11:22:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1111,7 +1111,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-MR2oU3yOto9WSCGN4PX+B3HWcSKGrTKJgGG1XZApa/s="
+          "Value": "sha256-3HCkmG30Nsipc6SMnCEbllC1ZPCuarpvyGwhek1lZFM="
+        }
+      ]
+    },
+    {
+      "Route": "assets/js/main.30a65k9t83.js",
+      "AssetFile": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\js\\main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "885"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3cINRleZmUiFoYsVl5DTvJjyfZ3rDMQCh08MT7kCDCo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 10:44:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "30a65k9t83"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/js/main.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3cINRleZmUiFoYsVl5DTvJjyfZ3rDMQCh08MT7kCDCo="
         }
       ]
     },
@@ -1126,7 +1171,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "883"
+          "Value": "885"
         },
         {
           "Name": "Content-Type",
@@ -1134,11 +1179,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"FB1N6IbE29Zo2CBUd6M1ph4TyDU/gk4he2he7V+FuiQ=\""
+          "Value": "\"3cINRleZmUiFoYsVl5DTvJjyfZ3rDMQCh08MT7kCDCo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Jun 2025 10:08:43 GMT"
+          "Value": "Sat, 07 Jun 2025 10:44:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1148,52 +1193,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-FB1N6IbE29Zo2CBUd6M1ph4TyDU/gk4he2he7V+FuiQ="
-        }
-      ]
-    },
-    {
-      "Route": "assets/js/main.sibruvzbr2.js",
-      "AssetFile": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\js\\main.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "883"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"FB1N6IbE29Zo2CBUd6M1ph4TyDU/gk4he2he7V+FuiQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 07 Jun 2025 10:08:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "sibruvzbr2"
-        },
-        {
-          "Name": "label",
-          "Value": "assets/js/main.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-FB1N6IbE29Zo2CBUd6M1ph4TyDU/gk4he2he7V+FuiQ="
+          "Value": "sha256-3cINRleZmUiFoYsVl5DTvJjyfZ3rDMQCh08MT7kCDCo="
         }
       ]
     },

@@ -83,9 +83,14 @@ namespace RoleBasedProductAPI.Controllers
         }
         // POST: api/users/login
         [HttpPost("login")]
-        public IActionResult Login([FromBody] LoginRequest request)
+        public IActionResult Login([FromBody] LoginRequest credentials)
         {
-            var user = _context.Users.SingleOrDefault(u => u.Email == request.Email && u.Password == request.Password);
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var user = _context.Users
+                .FirstOrDefault(u => u.Email == credentials.Email && u.Password == credentials.Password);
+
             if (user == null)
                 return Unauthorized("Invalid email or password.");
 

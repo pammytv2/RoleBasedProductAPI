@@ -1,28 +1,32 @@
-document.querySelector(".login__form").addEventListener("submit", async function (e) {
-    e.preventDefault(); // ป้องกัน reload หน้า
+document.addEventListener('DOMContentLoaded', () => {
+  const form = document.querySelector('.login__form');
+  if (!form) return;
 
-    const email = document.getElementById("login-email").value;
-    const password = document.getElementById("login-pass").value;
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    const email = document.getElementById('login-email').value.trim();
+    const password = document.getElementById('login-pass').value;
 
     try {
-        const response = await fetch("/api/users/login", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ email, password })
-        });
+      const response = await fetch('/api/users/login', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ email, password })
+      });
 
-        if (!response.ok) {
-            const error = await response.text();
-            message("❌ Login failed: " + error);
-            return;
-        }
+      if (!response.ok) {
+        const text = await response.text();
+        alert(`Login failed: ${text}`);
+        return;
+      }
 
-        const result = await response.json();
-        message("✅ " + result.message);
-
-        // 👉 เปลี่ยนหน้าหลัง login สำเร็จ
-        window.location.href = "/Home/Dashboard"; 
+      window.location.href = '/Home/Dashboard';
     } catch (err) {
-        message("❗ Error connecting to server: " + err.message);
+      console.error(err);
+      alert('An error occurred while logging in.');
     }
+  });
 });

@@ -33,12 +33,12 @@
       "PackagePath": "staticwebassets\\assets\\img\\login-bg.png"
     },
     {
-      "Id": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\js\\Login.js",
-      "PackagePath": "staticwebassets\\assets\\js\\Login.js"
-    },
-    {
       "Id": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\js\\Register.js",
       "PackagePath": "staticwebassets\\assets\\js\\Register.js"
+    },
+    {
+      "Id": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\js\\login.js",
+      "PackagePath": "staticwebassets\\assets\\js\\login.js"
     },
     {
       "Id": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\js\\main.js",

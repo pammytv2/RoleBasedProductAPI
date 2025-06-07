@@ -23,6 +23,7 @@ const showHiddenPass = (loginPass, loginEye) =>{
    })
 }
 
+
 showHiddenPass('login-pass','login-eye')
 showHiddenPass('login-pass2','login-eye2')
 showHiddenPass('login-pass1','login-eye1')
