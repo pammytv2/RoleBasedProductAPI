@@ -15,6 +15,20 @@ namespace RoleBasedProductAPI.Controllers
             _context = context;
         }
 
+        [HttpGet]
+        public IActionResult GetAll()
+        {
+            return Ok(_context.Products.ToList());
+        }
+
+        [HttpGet("{id}")]
+        public IActionResult Get(int id)
+        {
+            var product = _context.Products.Find(id);
+            if (product == null) return NotFound();
+            return Ok(product);
+        }
+
         // POST: api/products/{id}/withdraw
         [HttpPost("{id}/withdraw")]
         public IActionResult Withdraw(int id, [FromBody] WithdrawRequest request)

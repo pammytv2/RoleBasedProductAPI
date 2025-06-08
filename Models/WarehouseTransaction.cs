@@ -9,6 +9,12 @@ namespace RoleBasedProductAPI.Models
         [ForeignKey(nameof(Product))]
         public int ProductId { get; set; }
         public Product Product { get; set; }
+
+        public string? RequestedBy { get; set; }
+        public string? ReferenceDocumentNumber { get; set; }
+        public string? SupplierName { get; set; }
+
+        
         public int Quantity { get; set; }
         public string? DeliverySlipNumber { get; set; }
         public string? ReceiptNumber { get; set; }

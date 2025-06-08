@@ -57,6 +57,10 @@
       "PackagePath": "staticwebassets\\assets\\js\\stock-in.js"
     },
     {
+      "Id": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\js\\stock-out.js",
+      "PackagePath": "staticwebassets\\assets\\js\\stock-out.js"
+    },
+    {
       "Id": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\scss\\base\\_base.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\base\\_base.scss"
     },

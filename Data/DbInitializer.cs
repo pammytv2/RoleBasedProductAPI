@@ -22,9 +22,9 @@ namespace RoleBasedProductAPI.Data
 
             var products = new List<Product>
             {
-                new Product { Name = "Product A", Price = 100m, Stock = 50 },
-                new Product { Name = "Product B", Price = 200m, Stock = 30 },
-                new Product { Name = "Product C", Price = 300m, Stock = 20 }
+                new Product { Name = "ค้อน", Price = 120m, Stock = 10 },
+                new Product { Name = "ไขควง", Price = 80m, Stock = 15 },
+                new Product { Name = "ประแจ", Price = 150m, Stock = 20 }
             };
             context.Products.AddRange(products);
             context.SaveChanges();

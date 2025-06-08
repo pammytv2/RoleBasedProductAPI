@@ -1069,51 +1069,6 @@
       ]
     },
     {
-      "Route": "assets/js/stock-in.eh7oygrvec.js",
-      "AssetFile": "assets/js/stock-in.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4911"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4k3Bu3l+Gk9B+yaINimhF9ez0P6fxwJtoCiWqdImCpQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 14 May 2025 09:03:15 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "eh7oygrvec"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-4k3Bu3l+Gk9B+yaINimhF9ez0P6fxwJtoCiWqdImCpQ="
-        },
-        {
-          "Name": "label",
-          "Value": "assets/js/stock-in.js"
-        }
-      ]
-    },
-    {
       "Route": "assets/js/stock-in.js",
       "AssetFile": "assets/js/stock-in.js",
       "Selectors": [],
@@ -1128,7 +1083,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4911"
+          "Value": "6190"
         },
         {
           "Name": "Content-Type",
@@ -1136,17 +1091,144 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4k3Bu3l+Gk9B+yaINimhF9ez0P6fxwJtoCiWqdImCpQ=\""
+          "Value": "\"15e43TgJU2K7UhdCpMSYnQLEAfgFu2GsvHOi48KfUrk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 14 May 2025 09:03:15 GMT"
+          "Value": "Sun, 08 Jun 2025 08:21:05 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4k3Bu3l+Gk9B+yaINimhF9ez0P6fxwJtoCiWqdImCpQ="
+          "Value": "sha256-15e43TgJU2K7UhdCpMSYnQLEAfgFu2GsvHOi48KfUrk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/js/stock-in.l9dkguy622.js",
+      "AssetFile": "assets/js/stock-in.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6190"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"15e43TgJU2K7UhdCpMSYnQLEAfgFu2GsvHOi48KfUrk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Jun 2025 08:21:05 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l9dkguy622"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-15e43TgJU2K7UhdCpMSYnQLEAfgFu2GsvHOi48KfUrk="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/js/stock-in.js"
+        }
+      ]
+    },
+    {
+      "Route": "assets/js/stock-out.js",
+      "AssetFile": "assets/js/stock-out.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6190"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"15e43TgJU2K7UhdCpMSYnQLEAfgFu2GsvHOi48KfUrk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Jun 2025 08:10:23 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-15e43TgJU2K7UhdCpMSYnQLEAfgFu2GsvHOi48KfUrk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/js/stock-out.l9dkguy622.js",
+      "AssetFile": "assets/js/stock-out.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6190"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"15e43TgJU2K7UhdCpMSYnQLEAfgFu2GsvHOi48KfUrk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Jun 2025 08:10:23 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l9dkguy622"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-15e43TgJU2K7UhdCpMSYnQLEAfgFu2GsvHOi48KfUrk="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/js/stock-out.js"
         }
       ]
     },

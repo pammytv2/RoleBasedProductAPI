@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "i/IfEs9jyu2YolSveKHOux85B0nWfUOLcBJKyHxKTZI=",
+  "Hash": "uR/WHeKFF91V5qNDs+zEToDdlXWoFwJOPPsUSwG+IWE=",
   "Source": "RoleBasedProductAPI",
   "BasePath": "_content/RoleBasedProductAPI",
   "Mode": "Default",
@@ -325,11 +325,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "eh7oygrvec",
-      "Integrity": "4k3Bu3l+Gk9B+yaINimhF9ez0P6fxwJtoCiWqdImCpQ=",
+      "Fingerprint": "l9dkguy622",
+      "Integrity": "15e43TgJU2K7UhdCpMSYnQLEAfgFu2GsvHOi48KfUrk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\js\\stock-in.js"
+    },
+    {
+      "Identity": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\js\\stock-out.js",
+      "SourceId": "RoleBasedProductAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\",
+      "BasePath": "_content/RoleBasedProductAPI",
+      "RelativePath": "assets/js/stock-out#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l9dkguy622",
+      "Integrity": "15e43TgJU2K7UhdCpMSYnQLEAfgFu2GsvHOi48KfUrk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\js\\stock-out.js"
     },
     {
       "Identity": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\scss\\base\\_base.scss",
@@ -1444,51 +1465,6 @@
       ]
     },
     {
-      "Route": "assets/js/stock-in.eh7oygrvec.js",
-      "AssetFile": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\js\\stock-in.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4911"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4k3Bu3l+Gk9B+yaINimhF9ez0P6fxwJtoCiWqdImCpQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 14 May 2025 09:03:15 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "eh7oygrvec"
-        },
-        {
-          "Name": "label",
-          "Value": "assets/js/stock-in.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-4k3Bu3l+Gk9B+yaINimhF9ez0P6fxwJtoCiWqdImCpQ="
-        }
-      ]
-    },
-    {
       "Route": "assets/js/stock-in.js",
       "AssetFile": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\js\\stock-in.js",
       "Selectors": [],
@@ -1499,7 +1475,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4911"
+          "Value": "6190"
         },
         {
           "Name": "Content-Type",
@@ -1507,11 +1483,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4k3Bu3l+Gk9B+yaINimhF9ez0P6fxwJtoCiWqdImCpQ=\""
+          "Value": "\"15e43TgJU2K7UhdCpMSYnQLEAfgFu2GsvHOi48KfUrk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 14 May 2025 09:03:15 GMT"
+          "Value": "Sun, 08 Jun 2025 08:21:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1521,7 +1497,134 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4k3Bu3l+Gk9B+yaINimhF9ez0P6fxwJtoCiWqdImCpQ="
+          "Value": "sha256-15e43TgJU2K7UhdCpMSYnQLEAfgFu2GsvHOi48KfUrk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/js/stock-in.l9dkguy622.js",
+      "AssetFile": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\js\\stock-in.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6190"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"15e43TgJU2K7UhdCpMSYnQLEAfgFu2GsvHOi48KfUrk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Jun 2025 08:21:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l9dkguy622"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/js/stock-in.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-15e43TgJU2K7UhdCpMSYnQLEAfgFu2GsvHOi48KfUrk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/js/stock-out.js",
+      "AssetFile": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\js\\stock-out.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6190"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"15e43TgJU2K7UhdCpMSYnQLEAfgFu2GsvHOi48KfUrk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Jun 2025 08:10:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-15e43TgJU2K7UhdCpMSYnQLEAfgFu2GsvHOi48KfUrk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/js/stock-out.l9dkguy622.js",
+      "AssetFile": "E:\\RoleBasedProductAPI\\RoleBasedProductAPI\\RoleBasedProductAPI\\wwwroot\\assets\\js\\stock-out.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6190"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"15e43TgJU2K7UhdCpMSYnQLEAfgFu2GsvHOi48KfUrk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Jun 2025 08:10:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l9dkguy622"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/js/stock-out.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-15e43TgJU2K7UhdCpMSYnQLEAfgFu2GsvHOi48KfUrk="
         }
       ]
     },
