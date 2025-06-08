@@ -24,8 +24,9 @@ using (var scope = app.Services.CreateScope())
 
     try
     {
-        dbContext.Database.CanConnect(); 
+        dbContext.Database.CanConnect();
         Console.WriteLine("Connected to SQL Server successfully!");
+        DbInitializer.Initialize(dbContext);
     }
     catch (Exception ex)
     {
@@ -51,5 +52,5 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=login}/{id?}");
+    pattern: "{controller=Home}/{action=Dashboard}/{id?}");
 app.Run();
