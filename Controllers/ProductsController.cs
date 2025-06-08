@@ -30,9 +30,20 @@ namespace RoleBasedProductAPI.Controllers
                 return BadRequest("Insufficient stock.");
 
             product.Stock -= request.Quantity;
+
+            var transaction = new WarehouseTransaction
+            {
+                ProductId = id,
+                Quantity = request.Quantity,
+                DeliverySlipNumber = request.DeliverySlipNumber,
+                ReceiptNumber = request.ReceiptNumber,
+                ShippingSlipNumber = request.ShippingSlipNumber,
+                TransactionType = "OUT"
+            };
+            _context.Transactions.Add(transaction);
             _context.SaveChanges();
 
-            return Ok(product);
+            return Ok(new { product, transaction });
         }
 
         [HttpPost("{id}/deposit")]
@@ -46,9 +57,20 @@ namespace RoleBasedProductAPI.Controllers
                 return NotFound();
 
             product.Stock += request.Quantity;
+
+            var transaction = new WarehouseTransaction
+            {
+                ProductId = id,
+                Quantity = request.Quantity,
+                DeliverySlipNumber = request.DeliverySlipNumber,
+                ReceiptNumber = request.ReceiptNumber,
+                ShippingSlipNumber = request.ShippingSlipNumber,
+                TransactionType = "IN"
+            };
+            _context.Transactions.Add(transaction);
             _context.SaveChanges();
 
-            return Ok(product);
+            return Ok(new { product, transaction });
         }
     }
 }
