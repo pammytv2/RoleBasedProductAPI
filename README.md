@@ -9,4 +9,8 @@ Register
 fontend Dashboard
 ![image](https://github.com/user-attachments/assets/8ddf0b2e-7e6f-411e-8298-6bc568ca5b32)
 
+## Database Setup
+
+When the application starts it will automatically create the database (if it does not exist) and seed a few example products. Make sure the connection string in `appsettings.json` points to your SQL Server instance.
+
 

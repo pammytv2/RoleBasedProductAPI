@@ -24,7 +24,8 @@ using (var scope = app.Services.CreateScope())
 
     try
     {
-        dbContext.Database.CanConnect(); 
+        dbContext.Database.EnsureCreated();
+        DbInitializer.Seed(dbContext);
         Console.WriteLine("Connected to SQL Server successfully!");
     }
     catch (Exception ex)
