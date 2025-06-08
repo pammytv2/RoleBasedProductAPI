@@ -101,9 +101,6 @@
             <label class="form-label">เลือกสินค้า</label>
             <select class="form-control" id="productSelect">
               <option value="">เลือกสินค้าที่ต้องการเบิกออก</option>
-              <option value="P001">สินค้า A - รหัส P001</option>
-              <option value="P002">สินค้า B - รหัส P002</option>
-              <option value="P003">สินค้า C - รหัส P003</option>
             </select>
             <button type="button" class="btn btn-outline" style="margin-top: 10px;" onclick="addProductRow()">
               <i class="bx bx-plus"></i> เพิ่มสินค้า
@@ -165,11 +162,24 @@
               <th>จัดการ</th>
             </tr>
           </thead>
-          <tbody>
-            <tr>
-              <td>ISS-2505110003</td>
-              <td>11/05/2568</td>
-              <td>แผนกขาย</td>
-              <td>SO-2
- </body>
-     </html> 
+            <tbody>
+              <tr>
+                <td>ISS-2505110003</td>
+                <td>11/05/2568</td>
+                <td>แผนกขาย</td>
+                <td>SO-20240511</td>
+                <td>3</td>
+                <td><span class="status status-success">สำเร็จ</span></td>
+                <td>
+                  <button class="action-btn"><i class="bx bx-show"></i></button>
+                  <button class="action-btn"><i class="bx bx-printer"></i></button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </main>
+
+    <script src="~/assets/js/stock-out.js"></script>
+    </body>
+</html>
