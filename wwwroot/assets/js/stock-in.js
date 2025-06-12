@@ -12,12 +12,29 @@ currentDateElement.textContent = today.toLocaleDateString("th-TH", options);
 // Set today's date as default for the date input
 document.getElementById("receiveDate").valueAsDate = today;
 
-// Product data (simulated database)
-const products = {
-  P001: { name: "สินค้า A", unit: "ชิ้น", price: 150 },
-  P002: { name: "สินค้า B", unit: "กล่อง", price: 480 },
-  P003: { name: "สินค้า C", unit: "ชุด", price: 750 },
-};
+let products = {};
+
+async function loadProducts() {
+  try {
+    const res = await fetch('/api/products');
+    if (!res.ok) throw new Error('Failed to load products');
+    const data = await res.json();
+    products = {};
+    const select = document.getElementById('productSelect');
+    select.innerHTML = '<option value="">เลือกสินค้าที่ต้องการรับเข้า</option>';
+    data.forEach(p => {
+      products[p.id] = { name: p.name, unit: '', price: p.price };
+      const opt = document.createElement('option');
+      opt.value = p.id;
+      opt.textContent = `${p.name} - ${p.id}`;
+      select.appendChild(opt);
+    });
+  } catch (err) {
+    console.error(err);
+  }
+}
+
+loadProducts();
 
 let rowCount = 0;
 let total = 0;
@@ -38,6 +55,7 @@ function addProductRow() {
   const tableBody = document.getElementById("productTableBody");
   const newRow = document.createElement("tr");
   newRow.id = `row-${rowCount}`;
+  newRow.dataset.productId = productId;
 
   newRow.innerHTML = `
           <td>${rowCount}</td>
@@ -102,7 +120,7 @@ function updateTotal() {
 }
 
 // Form submission
-document.getElementById("stockInForm").addEventListener("submit", function (e) {
+document.getElementById("stockInForm").addEventListener("submit", async function (e) {
   e.preventDefault();
 
   const rows = document.querySelectorAll("#productTableBody tr");
@@ -111,7 +129,34 @@ document.getElementById("stockInForm").addEventListener("submit", function (e) {
     return;
   }
 
-  // Here you would normally send the data to the server
+  for (const row of rows) {
+    const productId = row.dataset.productId;
+    const quantity = parseFloat(row.querySelector('input[type="number"]:nth-of-type(1)').value);
+
+    const payload = {
+      quantity: quantity,
+      receiptNumber: document.getElementById("receiptNumber").value,
+      deliverySlipNumber: document.getElementById("referenceNumber").value,
+    };
+
+    try {
+      const res = await fetch(`/api/products/${productId}/deposit`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+      if (!res.ok) {
+        const text = await res.text();
+        alert(text);
+        return;
+      }
+    } catch (err) {
+      console.error(err);
+      alert('Error while saving data');
+      return;
+    }
+  }
+
   alert("บันทึกการรับเข้าสินค้าเรียบร้อยแล้ว");
 
   // For demo, add to the recent stock list
